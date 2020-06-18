@@ -1,0 +1,23 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "This is to create a generated version of a readme with questions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CGMcBride/ReadMeGen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CGMcBride/ReadMeGen/issues"
+  },
+  "homepage": "https://github.com/CGMcBride/ReadMeGen#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "inquirer": "^7.2.0"
+  }
+}
