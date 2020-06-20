@@ -1,6 +1,8 @@
 
-# conner 
-#### testing again
-![GitHub Badge](https://img.shields.io/badge/yes-working-blue)
+# Conner 
+#### Added a install
+![GitHub Badge](https://img.shields.io/badge/MIT-Awesome-blue)
 ### Table of Contents
-* Fire    
+* Fire
+### Installation
+node

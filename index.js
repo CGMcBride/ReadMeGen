@@ -29,19 +29,26 @@ const questions = [{
     type: "input",
     message: "What color do you want for your badge?",
     name: "Badgecolor"
+},
+{
+    type: "input",
+    message: "What type of installation did you use?",
+    name: "Install"
 }
 ];
 
 function writeToFile(fileName, data) {
     let fileContent =
-
-
         `
 # ${data.Title}
 #### ${data.Description}
 ![GitHub Badge](https://img.shields.io/badge/${data.Badgelabel}-${data.Badgemessage}-${data.Badgecolor})
 ### Table of Contents
-* ${data.TLC}    `
+* ${data.TLC}
+### Installation
+${data.Install}
+`
+
     fs.writeFile(fileName, fileContent, (err) => {
         if (err) throw err;
         console.log('The file has been saved!');
