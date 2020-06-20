@@ -14,8 +14,22 @@ const questions = [{
     type: "input",
     message: "Description ",
     name: "Description"
+},
+{
+    type: "input",
+    message: "What label do you want for your badge?",
+    name: "Badgelabel"
+},
+{
+    type: "input",
+    message: "What message do you want for your badge?",
+    name: "Badgemessage"
+},
+{
+    type: "input",
+    message: "What color do you want for your badge?",
+    name: "Badgecolor"
 }
-
 ];
 
 function writeToFile(fileName, data) {
@@ -25,6 +39,7 @@ function writeToFile(fileName, data) {
         `
 # ${data.Title}
 #### ${data.Description}
+https://img.shields.io/static/v1?label=${data.Badgelabel}&message=${data.Badgemessage}&color=${data.Badgecolor}
 ### Table of Contents
 * ${data.TLC}    `
     fs.writeFile(fileName, fileContent, (err) => {

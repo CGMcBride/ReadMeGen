@@ -25,6 +25,21 @@ inquirer.prompt([{
     type: "input",
     message: "Description ",
     name: "Description"
+},
+{
+    type: "input",
+    message: "What label do you want for your badge?",
+    name: "Badgelabel"
+},
+{
+    type: "input",
+    message: "What message do you want for your badge?",
+    name: "Badgemessage"
+},
+{
+    type: "input",
+    message: "What color do you want for your badge?",
+    name: "Badgecolor"
 }])
     .then(answers => {
         // Use user feedback for... whatever!!
