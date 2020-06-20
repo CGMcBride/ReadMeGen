@@ -39,6 +39,26 @@ const questions = [{
     type: "input",
     message: "What are you going to use this for?",
     name: "Usage"
+},
+{
+    type: "input",
+    message: "What license do you have to use?",
+    name: "License"
+},
+{
+    type: "input",
+    message: "What type of contribution did you make?",
+    name: "Contribute"
+},
+{
+    type: "input",
+    message: "What you like to run a test?",
+    name: "Tests"
+},
+{
+    type: "input",
+    message: "Do you have questions?",
+    name: "Questions"
 }
 ];
 
@@ -54,6 +74,14 @@ function writeToFile(fileName, data) {
 ${data.Install}
 ### Usage
 ${data.Usage}
+### License
+${data.License}
+### Contribute
+${data.Contribute}
+### Tests
+${data.Tests}
+### Questions
+${data.Questions}
 `
 
     fs.writeFile(fileName, fileContent, (err) => {
