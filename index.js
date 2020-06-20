@@ -34,6 +34,11 @@ const questions = [{
     type: "input",
     message: "What type of installation did you use?",
     name: "Install"
+},
+{
+    type: "input",
+    message: "What are you going to use this for?",
+    name: "Usage"
 }
 ];
 
@@ -47,6 +52,8 @@ function writeToFile(fileName, data) {
 * ${data.TLC}
 ### Installation
 ${data.Install}
+### Usage
+${data.Usage}
 `
 
     fs.writeFile(fileName, fileContent, (err) => {
