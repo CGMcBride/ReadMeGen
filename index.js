@@ -39,7 +39,7 @@ function writeToFile(fileName, data) {
         `
 # ${data.Title}
 #### ${data.Description}
-https://img.shields.io/static/v1?label=${data.Badgelabel}&message=${data.Badgemessage}&color=${data.Badgecolor}
+https://img.shields.io/badge/${data.Badgelabel}-${data.Badgemessage}-${data.Badgecolor}
 ### Table of Contents
 * ${data.TLC}    `
     fs.writeFile(fileName, fileContent, (err) => {
