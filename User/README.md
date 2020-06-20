@@ -1,18 +1,18 @@
 
-# Conner 
-#### This is a test 
-![GitHub Badge](https://img.shields.io/badge/MIT-SuperCool-orange)
+# Conner
+#### This is to show that my readme works
+![GitHub Badge](https://img.shields.io/badge/MIT-ImCool-blue)
 ### Table of Contents
-* Ice
+* Fire
 ### Installation
 node
 ### Usage
 school assignment
 ### License
-C3ZA
+open-source
 ### Contribute
-I made it
+I created it
 ### Tests
-yes lets do it
+no not needed
 ### Questions
-none
+none at this time
