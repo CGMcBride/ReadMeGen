@@ -1,10 +1,18 @@
 
-# Conner
-#### this another test again
-![GitHub Badge](https://img.shields.io/badge/MIT-Tired-green)
+# Conner 
+#### This is a test 
+![GitHub Badge](https://img.shields.io/badge/MIT-SuperCool-orange)
 ### Table of Contents
-* Gravity
+* Ice
 ### Installation
 node
 ### Usage
-class assignment
+school assignment
+### License
+C3ZA
+### Contribute
+I made it
+### Tests
+yes lets do it
+### Questions
+none
