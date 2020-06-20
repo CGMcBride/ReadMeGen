@@ -1,6 +1,6 @@
 
-#  Conner
-#### this again
-https://img.shields.io/badge/yheah-just work!-green
+# conner 
+#### work 
+![GitHub Badge](https://img.shields.io/badge/yes-no-blue)
 ### Table of Contents
-* Ice    
+* Fire    
