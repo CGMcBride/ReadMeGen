@@ -1,18 +1,18 @@
 
-# Conner
-#### This is to show that my readme works
-![GitHub Badge](https://img.shields.io/badge/MIT-ImCool-blue)
+# Conner McBride Readme Generator
+#### This is a test and demo to show it wors
+![GitHub Badge](https://img.shields.io/badge/MIT-SuperAwesome-blue)
 ### Table of Contents
-* Fire
+* Ice
 ### Installation
 node
 ### Usage
 school assignment
 ### License
-open-source
+this is a good question my own!
 ### Contribute
-I created it
+I created it 
 ### Tests
-no not needed
+sure but only if it works
 ### Questions
-none at this time
+no not really
